@@ -1,0 +1,36 @@
+body {
+    background-color: olivedrab;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    transform: translateY(50%);
+}
+
+.white-keys kbd {
+    display: inline-block;
+    background-color: white;
+    width: 50px;
+    height: 200px;
+    margin: 0px;
+    border: 3px solid grey;
+}
+.black-keys {
+    display: flex;
+    position: absolute;
+    top: 2px;
+    left: 239px;
+}
+
+.black-keys kbd {
+    display: inline-block;
+    margin-right: 32px;
+    background-color: black;
+    width: 28px;
+    height: 120px;
+}
+
+.black-keys kbd:nth-child(2) {
+    margin-right: 90px;
+}
